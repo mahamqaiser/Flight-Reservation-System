@@ -2,7 +2,6 @@
 
 A modern full-stack web application for booking flights, built using **Next.js 13 (App Router)**, **Tailwind CSS**, **PostgreSQL with Neon**, and **Resend** for email notifications.
 
----
 
 ##  Features
 
@@ -15,7 +14,6 @@ A modern full-stack web application for booking flights, built using **Next.js 1
 - Delete bookings
 - Trending airlines section
 
----
 
 ##  Tech Stack
 
@@ -28,16 +26,7 @@ A modern full-stack web application for booking flights, built using **Next.js 1
 | **Typescript** | Strong typing support |
 | **Vercel** | (Optional) Deployment platform |
 
----
 
-##  Project Structure
-/app
-/(auth) → Auth pages (sign-in, sign-up)
-/dashboard → User dashboard
-/admin → Admin panel
-/reservation → Reservation page
-
-/components → Reusable UI components
 /lib → Database and server utilities
 /actions → Server actions (booking, querying, deleting)
 public → Static assets (e.g., SVGs)
