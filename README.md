@@ -1,35 +1,51 @@
-#  Flight Reservation System
+# Flight Reservation System
 
-A modern full-stack web application for booking flights, built using **Next.js 13 (App Router)**, **Tailwind CSS**, **PostgreSQL with Neon**, and **Resend** for email notifications.
+This project is a **web-based flight booking system** built with **Next.js**, **TypeScript**, **TailwindCSS**, and **Neon PostgreSQL**. It allows users to search for flights, make reservations, and receive email confirmations. Admins can manage flights and view trends.
+
+## Features
+
+- User Authentication (Login/Signup)
+- Search & Reserve Flights
+- Admin Dashboard
+- Send Email on Reservation (via Resend API)
+- Trending Airlines Statistics
+- Fully responsive UI
+
+## Tech Stack
+
+| Component       | Technology           |
+|----------------|----------------------|
+| Frontend       | Next.js, React, Tailwind CSS |
+| Backend        | Next.js API Routes (App Router) |
+| Database       | Neon PostgreSQL (hosted) |
+| Auth & State   | Cookies, Server Actions |
+| Email Service  | Resend API |
+| ORM/SQL Client | PostgreSQL tagged queries via `@neondatabase/serverless` |
+
+## Requirements
+
+- Node.js 18+
+- pnpm or npm
+- Neon database account (or replace with local PostgreSQL)
+- Resend API Key (for email notifications)
+- Git
+
+## Installation
+
+### Install Dependencies
+
+```bash
+npm install
+
+## Set Environment Variables
+Create a .env file in the root directory and add the following:
+DATABASE_URL=your_neon_postgres_database_url
+RESEND_API_KEY=your_resend_api_key
+
+## Run the Development Server
+npm run dev
+Visit ## http://localhost:3000 in your browser.
 
 
-##  Features
-
-- User authentication (Sign Up, Sign In)
-- View available flights
-- Search airports and airlines
-- Make flight reservations
-- Automatic email confirmation
-- Admin view of all reservations
-- Delete bookings
-- Trending airlines section
-
-
-##  Tech Stack
-
-| Technology | Description |
-|-----------|-------------|
-| **Next.js 13+** | Full-stack React framework |
-| **Neon** (PostgreSQL) | Serverless SQL database |
-| **Tailwind CSS** | Utility-first CSS framework |
-| **Resend** | Email service for booking confirmations |
-| **Typescript** | Strong typing support |
-| **Vercel** | (Optional) Deployment platform |
-
-
-/lib → Database and server utilities
-/actions → Server actions (booking, querying, deleting)
-public → Static assets (e.g., SVGs)
-types → TypeScript interfaces and types
 
 
