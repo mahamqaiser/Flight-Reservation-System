@@ -48,18 +48,18 @@ This project is a **web-based flight booking system** built with **Next.js**, **
   
 
   ## Dependencies
-  -Package	Purpose
-  -next	React-based SSR framework
-  -tailwindcss	Utility-first CSS framework
-  -@neondatabase/serverless	PostgreSQL access (Neon)
-  -resend	Email sending API
-  -cookies	Cookie-based auth/session
-  -Usage Flow
-  -User signs up and logs in
-  -User selects destination and date
-  -User selects a flight and reserves it
-  -Reservation is stored in DB and email confirmation is sent
-  -Admin can view flight stats in dashboard
+  - Package	Purpose
+  - next	React-based SSR framework
+  - tailwindcss	Utility-first CSS framework
+  - @neondatabase/serverless	PostgreSQL access (Neon)
+  - resend	Email sending API
+  - cookies	Cookie-based auth/session
+  - Usage Flow
+  - User signs up and logs in
+  - User selects destination and date
+  - User selects a flight and reserves it
+  - Reservation is stored in DB and email confirmation is sent
+  - Admin can view flight stats in dashboard
 
 
 ## Installation
