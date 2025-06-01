@@ -37,14 +37,29 @@ This project is a **web-based flight booking system** built with **Next.js**, **
 ```bash
 npm install
 
-## Set Environment Variables
+Set Environment Variables
 Create a .env file in the root directory and add the following:
 DATABASE_URL=your_neon_postgres_database_url
 RESEND_API_KEY=your_resend_api_key
 
-## Run the Development Server
+Run the Development Server
 npm run dev
-Visit ## http://localhost:3000 in your browser.
+Visit http://localhost:3000 in your browser.
+
+Project Structure
+├── app/                   # Next.js App Router
+│   ├── page.tsx          # Home page
+│   └── dashboard/        # Admin dashboard routes
+├── components/           # Reusable UI components
+├── lib/                  # Database and utilities
+│   └── neon.ts           # SQL tagged queries
+├── actions/              # Server actions (booking, get data)
+├── public/               # Static files
+├── styles/               # Tailwind CSS configuration
+├── types/                # TypeScript type definitions
+├── .env                  # Environment variables
+├── tailwind.config.ts    # Tailwind config
+├── tsconfig.json         # TypeScript config
 
 
 
