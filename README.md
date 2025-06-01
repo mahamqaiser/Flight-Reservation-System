@@ -30,22 +30,6 @@ This project is a **web-based flight booking system** built with **Next.js**, **
 - Resend API Key (for email notifications)
 - Git
 
-## Installation
-
-### Install Dependencies
-
-```bash
-npm install
-
-Set Environment Variables
-Create a .env file in the root directory and add the following:
-DATABASE_URL=your_neon_postgres_database_url
-RESEND_API_KEY=your_resend_api_key
-
-Run the Development Server
-npm run dev
-Visit http://localhost:3000 in your browser.
-
 ## Project Structure
 ├── app/                   # Next.js App Router
 │   ├── page.tsx          # Home page
@@ -107,3 +91,21 @@ User selects a flight and reserves it
 Reservation is stored in DB and email confirmation is sent
 
 Admin can view flight stats in dashboard
+
+
+## Installation
+
+### Install Dependencies
+
+```bash
+npm install
+
+Set Environment Variables
+Create a .env file in the root directory and add the following:
+DATABASE_URL=your_neon_postgres_database_url
+RESEND_API_KEY=your_resend_api_key
+
+Run the Development Server
+npm run dev
+Visit http://localhost:3000 in your browser.
+
