@@ -61,6 +61,49 @@ Visit http://localhost:3000 in your browser.
 ├── tailwind.config.ts    # Tailwind config
 ├── tsconfig.json         # TypeScript config
 
+  Project Structure
+The project follows a standard Next.js application structure with these key directories and files:
 
+app/ - Next.js App Router containing:
 
+page.tsx - Home page
 
+dashboard/ - Admin dashboard routes
+
+components/ - Reusable UI components
+
+lib/ - Database and utilities including:
+
+neon.ts - SQL tagged queries
+
+actions/ - Server actions for booking and data operations
+
+public/ - Static files
+
+styles/ - Tailwind CSS configuration
+
+types/ - TypeScript type definitions
+
+.env - Environment variables
+
+tailwind.config.ts - Tailwind configuration
+
+tsconfig.json - TypeScript configuration
+
+Dependencies
+Package	Purpose
+next	React-based SSR framework
+tailwindcss	Utility-first CSS framework
+@neondatabase/serverless	PostgreSQL access (Neon)
+resend	Email sending API
+cookies	Cookie-based auth/session
+Usage Flow
+User signs up and logs in
+
+User selects destination and date
+
+User selects a flight and reserves it
+
+Reservation is stored in DB and email confirmation is sent
+
+Admin can view flight stats in dashboard
