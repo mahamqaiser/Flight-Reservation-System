@@ -57,7 +57,8 @@ This project is a **web-based flight booking system** built with **Next.js**, **
   - @neondatabase/serverless	PostgreSQL access (Neon)
   - resend	Email sending API
   - cookies	Cookie-based auth/session
-  - Usage Flow
+
+  ## Usage Flow
   - User signs up and logs in
   - User selects destination and date
   - User selects a flight and reserves it
