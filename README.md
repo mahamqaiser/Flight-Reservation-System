@@ -46,7 +46,7 @@ Run the Development Server
 npm run dev
 Visit http://localhost:3000 in your browser.
 
-Project Structure
+## Project Structure
 ├── app/                   # Next.js App Router
 │   ├── page.tsx          # Home page
 │   └── dashboard/        # Admin dashboard routes
