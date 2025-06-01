@@ -31,19 +31,22 @@ This project is a **web-based flight booking system** built with **Next.js**, **
 - Git
 
 ## Project Structure
-├── app/                  # Next.js App Router
-│   ├── page.tsx          # Home page
-│   └── dashboard/        # Admin dashboard routes
-├── components/           # Reusable UI components
-├── lib/                  # Database and utilities
-│   └── neon.ts           # SQL tagged queries
-├── actions/              # Server actions (booking, get data)
-├── public/               # Static files
-├── styles/               # Tailwind CSS configuration
-├── types/                # TypeScript type definitions
-├── .env                  # Environment variables
-├── tailwind.config.ts    # Tailwind config
-├── tsconfig.json         # TypeScript config
+
+| Path                  | Description                          |
+|-----------------------|--------------------------------------|
+| **app/**              | Next.js App Router                   |
+| → page.tsx            | Home page component                  |
+| → dashboard/          | Admin dashboard routes               |
+| **components/**       | Reusable UI components               |
+| **lib/**              | Database and utilities               |
+| → neon.ts             | SQL tagged queries                   |
+| **actions/**         | Server actions (booking, get data)   |
+| **public/**          | Static files                         |
+| **styles/**          | Tailwind CSS configuration           |
+| **types/**           | TypeScript type definitions          |
+| .env                  | Environment variables                |
+| tailwind.config.ts    | Tailwind configuration               |
+| tsconfig.json         | TypeScript configuration             |
 
   
 
