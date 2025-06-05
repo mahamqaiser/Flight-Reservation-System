@@ -66,7 +66,8 @@ This project is a **web-based flight booking system** built with **Next.js**, **
   - Admin can view flight stats in dashboard
 
 
-## Installation
+## Project Video:
+https://github.com/user-attachments/assets/9a1d69b7-8912-429f-9ce2-177c667da0d7
 
 ### Install Dependencies
 
@@ -82,4 +83,3 @@ Run the Development Server
 npm run dev
 Visit http://localhost:3000 in your browser.
 
-https://github.com/user-attachments/assets/9a1d69b7-8912-429f-9ce2-177c667da0d7
