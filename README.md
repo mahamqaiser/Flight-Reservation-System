@@ -67,7 +67,7 @@ This project is a **web-based flight booking system** built with **Next.js**, **
 
 
 ## Project Video:
-https://github.com/user-attachments/assets/9a1d69b7-8912-429f-9ce2-177c667da0d7
+https://github.com/user-attachments/assets/831b913a-5dcc-4be4-8d0c-2c73a77926b4
 
 ### Install Dependencies
 
